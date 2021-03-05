@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Солнечная система</title>
+		<link rel="shortcut icon" href="sun.png" type="image/x-icon">
+		<link rel="stylesheet" href="css/infinity.css">
+	</head>
+	<body>
+		<article class="men1" id="mm">Меню:<br>Скорость вращения планет: <article class="range">
+			<input class="rn" type="range" min="0" max="50" step="1" value="15" oninput="checkrange()" id="range0">
+			</article>
+			<article id="rangeinput">15</article>
+			<input class="bt" type="button" id="but" onclick="change(timer, i)" value="Изменить скорость">Включить/выключить траектории:
+			<br><input class="bt btt" type="button" id="but2" onclick="change2()" value="Включить">
+			<br><input class="bt" type="button" onclick="change4()" value="Небесные тела">
+			<br><input class="bt" type="button" id="but3" onclick="change1()" value="Режим истории">
+			<br><input class="bt" type="button" onclick="change5()" value="Галерея">
+			<br><input class="bt" type="button" onclick="change6()" value="Викторина">
+			<br>
+		© <A href="https://vk.com/queen_fluttershy">Семенов Дмитрий</A> и <A href="https://vk.com/id150469564">Партанский Илья</A>, 26.05.2019</article>
+		<input class="bt btx nen1" type="button" id="clb" onclick="clos()" value="←"><canvas id="exx"></canvas><script src="js/infinity.js">
+		</script>
+	</body>
+</html>

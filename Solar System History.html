@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Солнечная система</title>
+        <link rel="shortcut icon" href="sun.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/history.css">
+    </head>    
+    <body>
+    <article class="men1" id="mm">
+	Меню:
+    <BR>
+    Скорость вращения планет: 
+    <article class="range"> 
+   <input type="range" class="rn" min="0" max="50" step="1" value="15" oninput="checkrange()" id="range0">       
+       </article>  
+        <article id="rangeinput">15</article>
+        <input type="button" id="but" class="bt" onclick="change(timer, i)" value="Изменить скорость">
+        <BR> Включить/выключить траектории:
+        <BR>
+        <input type="button" id="but2" class="bt" onclick="change2()" value="Включить">        
+        <article id="years" class="years1">1802</article>
+        <article class="infooo" id="ttt">
+            <article id="info0" class="info1 infoo2">        
+            События:
+            <input type="button" id="but34" class="bt bta" onclick="change4()" value="Скрыть">
+            </article>            
+            <article id="info" class="info1 infoo">
+            </article>
+        </article>      
+		<BR>
+        <input type="button" class="bt" onclick="change5()" value="Небесные тела">
+		<BR>
+        <input type="button" class="bt" onclick="change1()" value="Бесконечный режим">
+        <BR>
+       <input type="button" class="bt" onclick="change6()" value="Галерея">
+        <BR>
+		<input type="button" class="bt" onclick="change7()" value="Викторина">
+            <BR>
+        © <A href="https://vk.com/queen_fluttershy">Семенов Дмитрий</A> и <A href="https://vk.com/id150469564">Партанский Илья</A>, 26.05.2019
+       </article>  
+        <input type="button" id="clb" class="bt btx nen1" onclick="clos()" value="←">
+        <canvas id="exx">
+        </canvas>
+        <script src="js/history.js"></script>
+    </body>
+</html>
